@@ -1,10 +1,10 @@
-Fairly's Adventures Noncommercial License 1.0
+Fairly's Adventure Noncommercial License 1.0
 
 Copyright (c) 2026 Larry Johnson, to the extent copyright subsists in
 original contributions. All rights reserved except as granted below.
 
 1. Scope
-This license applies to the original Fairly's Adventures game source code
+This license applies to the original Fairly's Adventure game source code
 in Source/ and game ROMs derived from it, to the extent the licensor has
 rights to grant. Third-party material and files carrying another license
 are excluded and retain their original terms. Artwork, manuals and website

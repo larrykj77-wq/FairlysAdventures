@@ -1,4 +1,4 @@
-# Fairly's Adventures
+# Fairly's Adventure
 
 Homebrew adventures by Larry Johnson, with AI-assisted development.
 

@@ -1,6 +1,6 @@
 # Copyright, trademarks and rights concerns
 
-Fairly's Adventures is an independent homebrew project by Larry Johnson, developed with AI assistance. It is not affiliated with, sponsored by, or endorsed by Atari, Nintendo, or the publishers of other games referenced during development. Platform and product names identify compatible systems or the products being discussed; no ownership of those names or marks is claimed.
+Fairly's Adventure is an independent homebrew project by Larry Johnson, developed with AI assistance. It is not affiliated with, sponsored by, or endorsed by Atari, Nintendo, or the publishers of other games referenced during development. Platform and product names identify compatible systems or the products being discussed; no ownership of those names or marks is claimed.
 
 ## Third-party material
 

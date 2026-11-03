@@ -1,8 +1,8 @@
-# Fairly's Adventures - Atari 2600 source
+# Fairly's Adventure - Atari 2600 source
 
 Designed and playtested by Larry Johnson, with AI-assisted development.
 This is the source for the V1.0 NTSC Atari 2600 game (32 KB F4, 128-byte RAM).
-It matches the approved V.39 gameplay; development shortcuts are removed.
+It retains V.39 gameplay with the singular title correction; development shortcuts are removed.
 
 ## Use and sharing
 
