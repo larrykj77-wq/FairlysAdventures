@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Fairly's Adventure: a free Atari 2600 dungeon adventure. Download the game, explore five levels, and face the dragons.">
   <meta name="theme-color" content="#10121b">
-  <title>Fairly's Adventure â€” Atari 2600</title>
+  <title>Fairly's Adventure &mdash; Atari 2600</title>
   <style>
     :root { color-scheme: dark; --bg:#10121b; --panel:#1a1e2b; --text:#f2f0e9; --muted:#b9becd; --gold:#ffd36b; --line:#343b50; }
     * { box-sizing:border-box; }
@@ -66,6 +66,7 @@
     .paypal-support p { margin: 0 0 15px; color: #b8becc; font-size: 15px; }
     .paypal-button { display: inline-block; background: #ffc439; color: #142643; border: 1px solid #e8ad20; border-radius: 7px; padding: 10px 22px; font-weight: 750; text-decoration: none; }
     .paypal-button:hover { background: #ffda76; color: #142643; }
+    .footer-links { display:flex; justify-content:flex-start; flex-wrap:wrap; gap:18px; padding:0; margin:14px 0 0; }
   </style>
 </head>
 <body>
@@ -92,7 +93,7 @@
           <a class="button" href="Fairlys-Adventure-V1.0.bin" download>Download game</a>
           <a class="button secondary" href="Fairlys-Adventure-V1.0.zip" download>Complete package</a>
         </div>
-        <p class="small">Version 1.0 Â· NTSC Â· One player Â· Free to download and play</p>
+        <p class="small">Version 1.0 &middot; NTSC &middot; One player &middot; Free to download and play</p>
         <p class="small">The game is a ROM file. Open it in an Atari 2600 emulator such as <a href="https://stella-emu.github.io/">Stella</a>.</p>
       </div>
       <img class="cover" src="Fairly%27s%20Adventure%20-%20Cover%20Art%20-%205%20Levels.png" alt="Fairly's Adventure cover: a blue-robed wizard faces a fire-breathing red dragon in a treasure-filled dungeon" width="1070" height="1470">
@@ -126,11 +127,19 @@
       <h2 id="manual-heading">Choose how much to discover</h2>
       <div class="two manuals">
         <div class="card"><a href="output/pdf/Fairlys-Adventure-Quick-Start.pdf">Quick Start manual (PDF)</a><p>Just the essentials. Learn the controls and discover the rest as you play.</p></div>
-        <div class="card"><a href="output/pdf/Fairlys-Adventure-Complete-Game-Play-Spoilers.pdf">Complete Game Play â€” Spoilers (PDF)</a><p>The full guide to enemies, equipment, dragons, rewards and progression.</p></div>
+        <div class="card"><a href="output/pdf/Fairlys-Adventure-Complete-Game-Play-Spoilers.pdf">Complete Game Play &mdash; Spoilers (PDF)</a><p>The full guide to enemies, equipment, dragons, rewards and progression.</p></div>
       </div>
       <p class="small">The complete ZIP includes the ROM, manuals, cover art, game-statistics spreadsheet, source code and build instructions.</p>
     </section>
   </main>
-  <footer><div class="wrap">Fairly's Adventure Â· Designed and playtested by Larry Johnson, with AI-assisted development.<br>An independent homebrew game for the Atari 2600.<p class="github-links"><a href="https://github.com/larrykj77-wq/FairlysAdventures">View on GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/larrykj77-wq/FairlysAdventures/tree/main/Source">Source code</a></p></div></footer>
+  <footer>
+    <div class="wrap footer-inner">
+      Fairly's Adventure &middot; Designed and playtested by Larry Johnson, with AI-assisted development.<br>An independent homebrew game for the Atari 2600.
+      <nav class="footer-links" aria-label="Project links">
+        <a href="https://github.com/larrykj77-wq/FairlysAdventures">View on GitHub</a>
+        <a href="https://github.com/larrykj77-wq/FairlysAdventures/tree/main/Source">Source code</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
