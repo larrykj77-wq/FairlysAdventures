@@ -1,0 +1,9 @@
+DragonLogicStartRoom = $F013
+DragonDisplayFrame = $F012
+DragonDisplaySyncLines = $F018
+D_hp = $0082
+D_lives = $0083
+D_wandTier = $00AE
+D_grace = $0089
+D_held = $0087
+D_tick = $0085
