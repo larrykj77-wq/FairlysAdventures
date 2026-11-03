@@ -60,6 +60,12 @@
       section { padding:30px 0; }
     }
     @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+    .paypal-support { margin-top: 32px; padding: 24px 0; border-top: 1px solid #343b50; }
+    .paypal-support h2 { margin: 0 0 8px; font-size: 21px; }
+    .paypal-support p { margin: 0 0 15px; color: #b8becc; font-size: 15px; }
+    .paypal-button { display: inline-block; background: #ffc439; color: #142643; border: 1px solid #e8ad20; border-radius: 7px; padding: 10px 22px; font-weight: 750; text-decoration: none; }
+    .paypal-button:hover { background: #ffda76; color: #142643; }
   </style>
 </head>
 <body>
@@ -119,6 +125,13 @@
       <p class="small">The complete ZIP includes the ROM, manuals, cover art, game-statistics spreadsheet, source code and build instructions.</p>
     </section>
   </main>
+  <div class="wrap">
+  <aside class="paypal-support" aria-label="Optional support">
+    <h2>Support Fairly's Adventures</h2>
+    <p>Enjoying the games? Support is optional. All games remain free to download and play.</p>
+    <a class="paypal-button" href="https://www.paypal.com/ncp/payment/XWSBBPM45YP78" target="_blank" rel="noopener noreferrer">Support via PayPal <span style="font-weight:400;font-size:13px">(opens a new tab)</span></a>
+  </aside>
+  </div>
   <footer><div class="wrap">Fairly's Adventures · Designed and playtested by Larry Johnson, with AI-assisted development.<br>An independent homebrew game for the Atari 2600.</div></footer>
 </body>
 </html>
