@@ -15,3 +15,7 @@ Original covered game code and derived ROMs may be played, modified and shared f
 Some support code is independently licensed under CC0. Those rights remain unrestricted. See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 This is source-available software under a custom noncommercial license. Artwork, manuals and website content are outside that code license.
+
+## Copyright and rights concerns
+
+Read the [copyright and trademark notice](COPYRIGHT-NOTICE.md) for the independent-project statement and how to report a specific concern. This notice does not replace permission or the applicable third-party licenses.
