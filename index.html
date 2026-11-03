@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fairly's Adventures: free homebrew games for classic consoles.">
+  <title>Fairly's Adventures</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #11141d; color: #f4f1e9; font: 17px/1.6 system-ui, sans-serif; }
+    main { width: min(800px, calc(100% - 40px)); margin: 65px auto; }
+    h1 { margin: 0; color: #ffd36b; font-size: clamp(32px, 6vw, 46px); line-height: 1.2; }
+    .intro { color: #b8becc; margin: 15px 0 35px; }
+    .consoles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    section { padding: 25px; border: 1px solid #343b50; border-radius: 8px; background: #1a1e2b; }
+    h2 { margin: 0 0 14px; font-size: 22px; }
+    p { margin: 0 0 18px; }
+    .muted { color: #b8becc; }
+    a { color: #ffd36b; text-underline-offset: 4px; }
+    a:hover { color: #fff0c5; }
+    a:focus-visible { outline: 3px solid #8bd8ff; outline-offset: 5px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #343b50; color: #b8becc; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Fairly's Adventures</h1>
+      <p class="intro">Free homebrew adventures for classic consoles.</p>
+    </header>
+    <div class="consoles">
+      <section aria-labelledby="atari">
+        <h2 id="atari">Atari 2600</h2>
+        <p>Fairly's Adventures</p>
+        <a href="atari-2600.html">Game details &amp; downloads</a>
+      </section>
+      <section aria-labelledby="nes">
+        <h2 id="nes">NES</h2>
+        <p class="muted">A new adventure is in the works.</p>
+        <span class="muted">Coming soon</span>
+      </section>
+      <!-- Add another console section here when a new game is ready. -->
+    </div>
+    <footer>Games by Larry Johnson, with AI-assisted development.</footer>
+  </main>
+</body>
+</html>
