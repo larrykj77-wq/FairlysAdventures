@@ -1,0 +1,9 @@
+tools/
+*.bin
+*.tmp
+*.sym
+*.lst
+bB.asm
+dungeon.bas.asm
+includes.bB
+2600basic_variable_redefs.h
