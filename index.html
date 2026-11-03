@@ -31,6 +31,7 @@
     .paypal-support p { margin: 0 0 15px; color: #b8becc; font-size: 15px; }
     .paypal-button { display: inline-block; background: #ffc439; color: #142643; border: 1px solid #e8ad20; border-radius: 7px; padding: 10px 22px; font-weight: 750; text-decoration: none; }
     .paypal-button:hover { background: #ffda76; color: #142643; }
+    .footer-links { display:flex; justify-content:flex-start; flex-wrap:wrap; gap:18px; padding:0; margin:14px 0 0; }
   </style>
 </head>
 <body>
@@ -61,7 +62,15 @@
       </section>
       <!-- Add another console section here when a new game is ready. -->
     </div>
-    <footer>Games by Larry Johnson, with AI-assisted development.<p class="github-links"><a href="https://github.com/larrykj77-wq/FairlysAdventures">View on GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/larrykj77-wq/FairlysAdventures/tree/main/Source">Source code</a></p></footer>
+    <footer>
+      <div class="footer-inner">
+        Games by Larry Johnson, with AI-assisted development.
+        <nav class="footer-links" aria-label="Project links">
+          <a href="https://github.com/larrykj77-wq/FairlysAdventures">View on GitHub</a>
+          <a href="https://github.com/larrykj77-wq/FairlysAdventures/tree/main/Source">Source code</a>
+        </nav>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
