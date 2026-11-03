@@ -12,7 +12,11 @@
     main { width: min(800px, calc(100% - 40px)); margin: 65px auto; }
     h1 { margin: 0; color: #ffd36b; font-size: clamp(32px, 6vw, 46px); line-height: 1.2; }
     .intro { color: #b8becc; margin: 15px 0 35px; }
-    .consoles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .consoles { display: grid; grid-template-columns: 1fr; gap: 20px; }
+    .console-row { display: flex; align-items: center; gap: 25px; }
+    .cover { display: block; width: 110px; max-width: 25vw; height: auto; border-radius: 4px; flex-shrink: 0; }
+    .console-info { min-width: 0; }
+    @media (max-width: 480px) { section { padding: 18px; } .console-row { gap: 18px; } }
     section { padding: 25px; border: 1px solid #343b50; border-radius: 8px; background: #1a1e2b; }
     h2 { margin: 0 0 14px; font-size: 22px; }
     p { margin: 0 0 18px; }
@@ -30,10 +34,13 @@
       <p class="intro">Free homebrew adventures for classic consoles.</p>
     </header>
     <div class="consoles">
-      <section aria-labelledby="atari">
-        <h2 id="atari">Atari 2600</h2>
-        <p>Fairly's Adventures</p>
-        <a href="atari-2600.html">Game details &amp; downloads</a>
+      <section class="console-row" aria-labelledby="atari">
+        <a href="atari-2600.html" aria-label="Fairly's Adventures for Atari 2600"><img class="cover" src="Fairly%27s%20Adventures%20-%20Cover%20Art%20-%205%20Levels.png" alt="Fairly's Adventures cover art"></a>
+        <div class="console-info">
+          <h2 id="atari">Atari 2600</h2>
+          <p>Fairly's Adventures</p>
+          <a href="atari-2600.html">Game details &amp; downloads</a>
+        </div>
       </section>
       <section aria-labelledby="nes">
         <h2 id="nes">NES</h2>
